@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'arial', sans-serif;
+}
+body{
+    line-height: 1.6;
+}
+header{
+    box-shadow: 0 2px 5px rgba(0, 0,0 ,0.1);
+    background-color: #11cf66;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+        padding: 1rem 2rem;
+        max-width: 1200px;
+        margin: 0 auto;
+}
+
+.logo{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+}
+.nav-links{
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
+ .nav-links a{
+    text-decoration: none;
+    color: #333;
+ }
+
+ #hero{
+    padding-top: 2rem;
+    min-height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url('img/caño\ cristales\ portada.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+    color: white ;
+    padding: 15rem;
+ }
+
+ #informaciongeneral{
+    padding: 4rem 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+.entornonatural-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 0.5fr));
+    gap: 1rem;
+ }
+
+ .entornonatural-card {
+ background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0,0 ,0.1);
+}
+
+
+ .entornonatural-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+ }
+
+h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+ p{
+   text-align: center;
+    margin-bottom: 2rem;
+}
+ li{
+    text-align: center;
+    margin-bottom: 2rem;
+ }
+ .alinear_flex{
+    display: flex;
+    justify-content: center;
+    
+ }
+ footer{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+ul{
+    list-style-type: none;
+}
+
+@media screen and (max-width: 110px) { nav {flex-direction: column;
+padding: 5rem;
+}
+ .nav-links{
+    flex-direction: column;
+    text-align: center;
+    margin-top: 1rem;
+    gap: 1rem;
+ }
+}

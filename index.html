@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turismo en colombia</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Turismo en colombia</div>
+            <ul class="nav-links">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#Destinos">Destinos</a></li>
+                <li><a href="#Contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="hero">
+            <h1>Cual sera tu proximo destino</h1>
+            <p>Lugares que te podrian interesar</p>
+        </section>
+
+        <section id="Destinos">
+         <h2>Destinos destacados</h2>
+         <div class="Destinos-grid">
+            <div class="Destino-card">
+                <img src="img/carta.jpg" alt="primer sitio">
+                <h3>Cartagena de indias</h3>
+                <p class="descripcion">Hermosa ciudad situada en la costa Caribe</p>
+                <a href="carta.html"><button  class="cta-button">Ver detalles</button></a>
+
+            </div>
+             <div class="Destino-card">
+                <img src="img/caño.jpg" alt="segundo sitio">
+                <h3>Caño Cristales</h3>
+                <p class="descripcion">Rio ubicado en la Sierra de Macarena</p>
+                <a href="CañoCris.html"><button  class="cta-button">Ver detalles</button></a>
+            </div>
+             <div class="Destino-card">
+                <img src="img/ibague.jpg" alt="tercer sitio">
+                <h3>Ibague</h3>
+                <p class="descripcion">Capital del departamento tolima</p>
+               <a href="ibague.html"><button  class="cta-button">Ver detalles</button></a>
+            </div>
+         </div>
+        </section>
+        <section id="Contacto">
+            <h2>Contacto</h2>
+            <form>
+                <input type="text" placeholder="Nombre" required>
+                <input type="email" placeholder="Email" required>
+                <textarea placeholder="mensaje" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; Turismo en colombia. Todos los derechos reservados</p>
+    </footer>
+</body>
+</html>
